@@ -116,10 +116,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                   label="My properties"
                   onClick={() => router.push('/properties')}
                 />
-                {/* <MenuItem
-                  label="List your"
-                  onClick={rentModal.onOpen}
-                /> */}
+                <MenuItem label="List your" onClick={rentModal.onOpen} />
                 <hr />
                 <MenuItem label="Logout" onClick={() => signOut()} />
               </>
