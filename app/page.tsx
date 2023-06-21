@@ -26,7 +26,7 @@ const Home = async ({ searchParams }: HomeProps) => {
     <ClientOnly>
       <div
         className="
-          w-[80]
+          w-full
           h-[100vh]
           overflow-hidden 
           rounded-xl
